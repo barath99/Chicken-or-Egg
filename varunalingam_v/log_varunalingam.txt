@@ -1,0 +1,13 @@
+Commands Used
+
+git clone [url] - this command is used to clone a pre existing repository in the given URL and make a local repository at the current directory
+git branch - this command lists the all created braches of the current repository
+git branch [name] - this command creates a new branch in the current repository
+git checkout [name] - this command checksout from the active branch and switches to the branch name specified if the branch is available in the local repo or in the origin else posts error
+git checkout -b [subname] [name] - this command creates a new branch named subname in the branch name and checksout from name and switches to subname
+git switch [name] - this command switches to the branch name
+git add [path] - this command adds file in the path to the current branch if the path is the local repository and is available else posts error
+git pull origin [name] - this command updates the branch name from the repository to local repository
+git commit -m[message] - this command finalizes the changes made in the branches and updates the repository with the message
+git request-pull <start> <url> [<end>] - creates a pull request to the url from the starting branch the end branch
+git push origin [name] - pushes all the changes made in branch name to github

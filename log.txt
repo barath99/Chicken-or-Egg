@@ -17,5 +17,5 @@ git status- gives informtion about changes you made like created branches , whic
 git pull origin name - this command updates the branch name from the repository to local repository
 git push origin name . it will update all the changes made in the branch to the repository.
 git merge - used to merge two branch
-touch filename- used to create file
+touch <filename>- used to create file
 

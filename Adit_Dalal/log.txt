@@ -1,0 +1,15 @@
+
+git clone - used to cline the repository
+
+git checkout -b <branch name> - to create and shifht to a new branch
+
+git add <filename> - to add file
+
+git commit -m "comments" - to commit the changes
+
+touch <filename> - to create a new file
+
+git merge - to merge branches together
+
+git push - to push the changes made to git hub 
+
